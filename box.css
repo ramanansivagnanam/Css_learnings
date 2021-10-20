@@ -2,9 +2,28 @@ body {
     margin: 0;
 }
 div#container {
-    width: 350px;
-    height: 150px;
-    margin: 10px;
-    padding: 25px;
-    border: 5px solid black;
+    width: 532px;
+    height: 96px;
+    margin: 24px;
+    background: tomato;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    border-top-right-radius: 24px;
+
+
 }
+
+/* The margin is not counted towards the actual size of the box - #proof */
+
+/* const a = document.getElementById('container')
+a.getBoundingClientRect();
+
+bottom: 220
+height: 210
+left: 10
+right: 420
+top: 10
+width: 410
+x: 10
+y: 10 */
+
