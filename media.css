@@ -13,9 +13,10 @@ body, h1{
 }
 
 
-@media screen and (min-width: 800px) {
-    #container {
+/* @media screen and (min-width: 800px) { */
+    body {
       margin: 1em 2em;
+      background: rebeccapurple;
     }
   }
 
@@ -31,9 +32,22 @@ body, h1{
     }
 }
 
+/* Semantic Elements in HTML
 
-@media (orientation: landscape) {
-    body {
-        background: rebeccapurple;
-    }
-}
+
+<article>
+<aside>
+<details>
+<figcaption>
+<figure>
+<footer>
+<header>
+<main>
+<mark>
+<nav>
+<section>
+<summary>
+<time>
+
+ */
+
