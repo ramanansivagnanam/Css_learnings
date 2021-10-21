@@ -1,0 +1,22 @@
+/* position static default document flow */
+#parent{
+    display: flex;
+}
+#parent #child-1{
+
+    height: 200px;
+    width: 100%;
+    margin: 8px;
+    background: rgb(19, 202, 235);
+    display: flex;
+    flex: 1;
+    /* position: static; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+}
+
+

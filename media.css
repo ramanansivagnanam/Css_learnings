@@ -1,0 +1,39 @@
+/* @media media-type and (media-feature-rule) {
+     CSS rules go here 
+    }
+/* 
+    media-type:
+       all, screen, print, speech
+
+*/ 
+
+
+body, h1{
+    margin: 0;
+}
+
+
+@media screen and (min-width: 800px) {
+    #container {
+      margin: 1em 2em;
+    }
+  }
+
+  /* @media screen and (width: 600px) {
+    body {
+        background: red;
+    }
+} */
+
+@media screen and (max-width: 600px) {
+    body {
+        background: blue;
+    }
+}
+
+
+@media (orientation: landscape) {
+    body {
+        background: rebeccapurple;
+    }
+}
