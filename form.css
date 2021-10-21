@@ -1,0 +1,73 @@
+body,
+h1 {
+  margin: 0;
+}
+.wrapper {
+  display: flex;
+  position: relative;
+}
+.wrapper > div {
+  background: rgb(93, 129, 93);
+  height: 60px;
+  flex: 1;
+}
+.wrapper > .heading {
+  position: absolute;
+  color: #fff;
+  top: 10px;
+  left: 10px;
+}
+.wrapper > .heading:hover {
+  cursor: pointer;
+}
+
+#form-container{
+  height: calc(100vh);
+  background: rgb(67, 74, 77);
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+#login-container{
+  padding: 8px;
+  margin: 8px;
+  height: 600px;
+  width: 500px;
+  background: rgb(216, 220, 221);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+#form-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 4;
+  padding: 8px;
+}
+#form-footer, #form-header {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+input{
+  height: 36px;
+  margin: 8px;
+  /* width: 80%; */
+  width: 280px;
+  outline: none;
+  border-radius: 8px;
+}
+
+input:focus, input:active{
+  border: 2px solid orange;
+}
+input::placeholder{
+ padding-left: 8px;
+ font-size: 16px;
+}
